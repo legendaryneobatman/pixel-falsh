@@ -1,0 +1,10 @@
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\ResolveAssemblyReference.cache
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.Form1.resources
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.Properties.Resources.resources
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.csproj.GenerateResource.Cache
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.exe
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\bin\Release\WindowsFormsApplication2.pdb
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.exe
+E:\ИВТ\Programming\2 семестр\Sharp\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.pdb
+D:\ИВТ\Programming\2 семестр\Сдача\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.exe
+D:\ИВТ\Programming\2 семестр\Сдача\WindowsFormsApplication2\WindowsFormsApplication2\obj\Release\WindowsFormsApplication2.pdb

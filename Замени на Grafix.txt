@@ -1,0 +1,115 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace Grafix
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        
+
+        private void Form1_Paint(object sender, EventArgs e)
+        {
+
+            
+            
+        }
+
+        Bitmap myBitmap;
+        Graphics g;
+        int a = 0, b = 0;
+
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+              myBitmap = new Bitmap(pictureBox1.Width, pictureBox1.Height);
+            g = Graphics.FromImage(myBitmap);
+
+            Pen pen1 = new Pen(Color.Black, 5);
+            Pen pen2 = new Pen(Color.Red, 5);
+            Pen pen3 = new Pen(Color.Blue, 5);
+            Pen penW50 = new Pen(Color.White, 50);
+            Pen penB50 = new Pen(Color.Blue, 50);
+            Pen penR50 = new Pen(Color.Red, 50);
+
+           /* g.DrawLine(pen1, 10, 10, 110, 10);
+            
+
+            
+            g.DrawRectangle(pen2, 10, 50, 100, 100);
+
+            g.DrawEllipse(pen3, 10, 200, 100, 100);
+
+            g.DrawLine(penW50, 250, 20, 500, 20);
+            g.DrawLine(penB50, 250, 70, 500, 70);
+            g.DrawLine(penR50, 250, 120, 500, 120);
+
+            g.DrawLine(pen1, 750, 20, 750, 80);
+            g.DrawEllipse(pen1, 730, 40, 40, 40);
+            g.DrawLine(pen1, 750, 20, 790, 80);
+            g.DrawLine(pen1, 790, 80, 710, 80);
+            g.DrawLine(pen1, 710, 80, 750, 20);
+
+           
+
+            pictureBox1.Image = myBitmap;*/
+            Point[] forangle =
+             {     new Point(20, 120),
+                   new Point(80, 100),
+                   new Point(100, 40),
+                   new Point(120, 100),
+                   new Point(180, 120),
+                   new Point(120, 160),
+                   new Point(100, 220),
+                   new Point(80, 160),
+                   new Point(20,120),
+             };
+
+            Point[] edge =
+            {
+                new Point(100,40),
+                new Point(120,20),
+                new Point(140,80),
+                new Point(120,100),
+                new Point(100,40)
+            };
+
+            Point[] edge2 =
+            {
+                new Point(140,80),
+                new Point(200,100),
+                new Point(180,120)
+               
+                
+            };
+
+            g.DrawLines(pen1,forangle);
+            g.DrawLines(pen1, edge);
+            g.DrawLines(pen1, edge2);
+
+
+
+
+
+
+
+            pictureBox1.Image = myBitmap;
+
+
+
+
+
+
+        }
+    }
+}
